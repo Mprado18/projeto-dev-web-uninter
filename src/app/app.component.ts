@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+import studentsData from './students'; // Carregamento dos alunos
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-root', 
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'] // estilos CSS
 })
+
 export class AppComponent {
-  title = 'projeto-dev-web-uninter';
+  // Atributo para armazenar os alunos
+  students = studentsData;
 }

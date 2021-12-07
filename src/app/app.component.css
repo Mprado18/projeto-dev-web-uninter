@@ -1,0 +1,4 @@
+/* Adicionar um padding, para criar um espaço maior entre o container e o body */
+.container {
+    padding: 64px;
+}

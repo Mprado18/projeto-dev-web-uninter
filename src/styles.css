@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Aplicando um background para dar cor a página estática */
+body {
+    background-color: #05051a;
+    color: rgb(252, 252, 252);
+}
+
+/*Centralizando titulo h1*/
+.title {
+    text-align: center;
+}
